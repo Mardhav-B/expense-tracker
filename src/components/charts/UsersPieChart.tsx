@@ -38,7 +38,7 @@ export default function UsersPieChart() {
               outerRadius={80}
               label
             >
-              {data.map((entry, i) => (
+              {data.map((_, i) => (
                 <Cell key={i} fill={COLORS[i % COLORS.length]} />
               ))}
             </Pie>

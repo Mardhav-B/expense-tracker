@@ -66,7 +66,7 @@ export default function AdminHome() {
                   outerRadius={80}
                   label
                 >
-                  {pieData.map((entry, i) => (
+                  {pieData.map((_, i) => (
                     <Cell key={i} fill={COLORS[i % COLORS.length]} />
                   ))}
                 </Pie>
