@@ -1,9 +1,9 @@
 import type { User, Transaction } from "@/types";
 
 export const seedUsers: User[] = [
-  { id: "1", username: "selva", password: "admin123", role: "admin" },
+  { id: "1", username: "vicky", password: "admin123", role: "admin" },
   { id: "2", username: "john", password: "1234", role: "user" },
-  { id: "3", username: "alice", password: "abcd", role: "user" },
+  { id: "3", username: "vish", password: "abcd", role: "user" },
 ];
 
 const transactionDescriptions = [
